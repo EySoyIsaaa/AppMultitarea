@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Demo Multitarea</string>
+    <string name="titulo">Aplicación básica multitarea</string>
+    <string name="descripcion">Esta demo ejecuta 2 tareas en paralelo para mostrar multitarea con corrutinas.</string>
+
+    <string name="estado_inicial_a">Tarea A en espera.</string>
+    <string name="estado_inicial_b">Tarea B en espera.</string>
+
+    <string name="btn_iniciar">Iniciar demo</string>
+    <string name="btn_cancelar">Cancelar tareas</string>
+
+    <string name="iniciando_tarea_a">Iniciando Tarea A...</string>
+    <string name="iniciando_tarea_b">Iniciando Tarea B...</string>
+    <string name="progreso_tarea_a">Tarea A: %1$d%%</string>
+    <string name="progreso_tarea_b">Tarea B: %1$d%%</string>
+    <string name="tarea_finalizada">Finalizada ✅</string>
+    <string name="tarea_cancelada">Cancelada ❌</string>
+
+    <string name="demo_corriendo">Demo corriendo: ambas tareas trabajan al mismo tiempo.</string>
+    <string name="resumen_inicial">Pulsa \"Iniciar demo\" para comenzar.</string>
+    <string name="resumen_cancelado">Las tareas fueron canceladas.</string>
+    <string name="resumen_finalizado">¡Listo! Se completaron ambas tareas en paralelo.</string>
+</resources>
