@@ -1,10 +1,12 @@
 # AppMultitarea (Demo escolar)
 
-Aplicación Android básica para demostrar **multitarea** usando **Kotlin Coroutines**.
+Aplicación Android básica para demostrar **multitarea real y visible** usando **Kotlin Coroutines**.
 
 ## ¿Qué hace?
-- Ejecuta dos tareas en paralelo (Tarea A y Tarea B).
-- Muestra progreso independiente en dos barras.
+- Ejecuta **2 procesos diferentes al mismo tiempo**:
+  - **Tarea A:** animación/progreso continuo (se ve moverse en tiempo real).
+  - **Tarea B:** cálculo pesado por etapas (actualiza resultado y progreso).
+- Muestra un **log en pantalla** donde se ve la intercalación de eventos de A y B.
 - Permite cancelar ambas tareas.
 
 ## Abrir en Android Studio

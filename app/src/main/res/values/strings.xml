@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Demo Multitarea</string>
     <string name="titulo">Aplicación básica multitarea</string>
-    <string name="descripcion">Esta demo ejecuta 2 tareas en paralelo para mostrar multitarea con corrutinas.</string>
+    <string name="descripcion_visible">Se ejecutan 2 procesos distintos al mismo tiempo: (A) animación/progreso y (B) cálculo pesado por etapas.</string>
 
     <string name="estado_inicial_a">Tarea A en espera.</string>
     <string name="estado_inicial_b">Tarea B en espera.</string>
@@ -11,13 +11,27 @@
 
     <string name="iniciando_tarea_a">Iniciando Tarea A...</string>
     <string name="iniciando_tarea_b">Iniciando Tarea B...</string>
-    <string name="progreso_tarea_a">Tarea A: %1$d%%</string>
-    <string name="progreso_tarea_b">Tarea B: %1$d%%</string>
-    <string name="tarea_finalizada">Finalizada ✅</string>
+    <string name="progreso_tarea_a_visible">Tarea A: %1$d%% %2$s</string>
+    <string name="tarea_a_terminada">Tarea A terminada ✅</string>
+
+    <string name="tarea_b_etapa">Tarea B calculando etapa %1$d/5...</string>
+    <string name="resultado_inicial_b">Resultado B: esperando cálculo...</string>
+    <string name="resultado_b">Resultado B etapa %1$d: %2$d</string>
+    <string name="tarea_b_terminada">Tarea B terminada ✅</string>
+
     <string name="tarea_cancelada">Cancelada ❌</string>
 
-    <string name="demo_corriendo">Demo corriendo: ambas tareas trabajan al mismo tiempo.</string>
-    <string name="resumen_inicial">Pulsa \"Iniciar demo\" para comenzar.</string>
+    <string name="demo_corriendo_visible">Demo activa: ambas tareas corren al mismo tiempo (mira progreso y log).</string>
+    <string name="resumen_inicial">Pulsa "Iniciar demo" para comenzar.</string>
     <string name="resumen_cancelado">Las tareas fueron canceladas.</string>
-    <string name="resumen_finalizado">¡Listo! Se completaron ambas tareas en paralelo.</string>
+    <string name="resumen_finalizado_visible">¡Listo! Se ejecutaron 2 cosas al mismo tiempo de forma visible.</string>
+
+    <string name="log_inicial">Log de ejecución en paralelo:</string>
+    <string name="log_tarea_a">Tarea A avanzó a %1$d%%</string>
+    <string name="log_tarea_b_inicio">Tarea B inició etapa %1$d</string>
+    <string name="log_tarea_b_fin">Tarea B terminó etapa %1$d (progreso %2$d%%)</string>
+    <string name="log_fin_a">Tarea A finalizada</string>
+    <string name="log_fin_b">Tarea B finalizada</string>
+    <string name="log_cancelado">Usuario canceló ambas tareas</string>
+    <string name="log_final">Ambas tareas completadas en paralelo</string>
 </resources>
